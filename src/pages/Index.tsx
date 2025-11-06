@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroMoto from "@/assets/hero-moto.jpg";
+import logoCarlos from "@/assets/logo-carlos-dasmotos.png";
 import { Phone } from "lucide-react";
 
 const Index = () => {
@@ -13,19 +14,12 @@ const Index = () => {
       {/* Header */}
       <header className="border-b-4 border-primary py-6 px-4 md:px-8">
         <div className="container mx-auto">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-black text-foreground tracking-tight">
-              CARLOS
-            </h1>
-            <h2 className="text-3xl md:text-5xl font-black text-primary tracking-wider">
-              DASMOTOS
-            </h2>
-            <p className="text-xl md:text-2xl font-bold text-foreground mt-2">
-              MOTO BARATA
-            </p>
-            <p className="text-lg md:text-xl font-semibold text-primary/90 mt-1">
-              ESPECIALISTA EM VENDAS!
-            </p>
+          <div className="flex justify-center">
+            <img 
+              src={logoCarlos} 
+              alt="Carlos Das Motos - Moto Barata - Especialista em Vendas" 
+              className="h-32 md:h-48 w-auto object-contain"
+            />
           </div>
         </div>
       </header>
