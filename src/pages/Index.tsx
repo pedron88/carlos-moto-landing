@@ -12,16 +12,12 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b-4 border-primary py-6 px-4 md:px-8">
-        <div className="container mx-auto">
-          <div className="flex justify-center">
-            <img 
-              src={logoCarlos} 
-              alt="Carlos Das Motos - Moto Barata - Especialista em Vendas" 
-              className="h-32 md:h-48 w-auto object-contain"
-            />
-          </div>
-        </div>
+      <header className="border-b-4 border-primary">
+        <img 
+          src={logoCarlos} 
+          alt="Carlos Das Motos - Moto Barata - Especialista em Vendas" 
+          className="w-full h-auto object-cover"
+        />
       </header>
 
       {/* Hero Section */}
